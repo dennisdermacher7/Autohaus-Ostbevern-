@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autohaus Ostbevern | KFZ-Meisterbetrieb, Transporter & Kleinwagen</title>
+  <meta name="description" content="Autohaus Ostbevern – Ihr KFZ-Meisterbetrieb in Ostbevern. Transporter, Kleinwagen, Wohnmobile, Reparatur, Reifenservice & Abschleppdienst. ☎ 02532 9509558" />
+  <meta name="author" content="Autohaus Ostbevern GmbH" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Autohaus Ostbevern | KFZ-Meisterbetrieb & Fahrzeughandel" />
+  <meta property="og:description" content="Transporter, Kleinwagen & Wohnmobile – Verkauf, Reparatur, Reifenservice & Abschleppdienst in Ostbevern." />
+  <meta property="og:image" content="assets/hero-bg.jpg" />
+  <meta property="og:locale" content="de_DE" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="assets/hero-bg.jpg" alt="Autohaus Ostbevern Showroom" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="topbar">
+        <div class="container topbar-inner">
+          <h2 class="brand">AUTOHAUS OSTBEVERN</h2>
+          <div class="topbar-info">
+            <span class="info-item"><span class="star">★</span> 4,9 / 5</span>
+            <a href="tel:025329509558" class="info-item">📞 02532 9509558</a>
+            <a href="tel:01637332091" class="info-item">📞 0163 7332091</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <span class="badge">Ihr Transporter & Kleinwagen Profi</span>
+            <h1>Qualität, die <span class="text-gradient">überzeugt.</span></h1>
+            <p class="lead">
+              Neuwagen, Gebrauchtwagen, Reparaturen & Ersatzteile – alles aus einer Hand in Ostbevern.
+              Vertrauen Sie auf über Jahre Erfahrung.
+            </p>
+            <div class="hero-meta">
+              <span>📍 Loburg 51, 48346 Ostbevern</span>
+              <span>🕒 Mo–Fr 9–18 Uhr | Sa 10–15 Uhr</span>
+            </div>
+          </div>
+
+          <form class="contact-form glass" id="contact-form">
+            <h3>Kostenlos anfragen</h3>
+            <p class="form-sub">Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
+            <input type="text" name="name" placeholder="Ihr Name" required />
+            <div class="form-row">
+              <input type="tel" name="phone" placeholder="Telefonnummer" required />
+              <input type="email" name="email" placeholder="E-Mail" />
+            </div>
+            <textarea name="message" placeholder="Ihre Nachricht (z.B. Fahrzeugwunsch, Reparatur, etc.)" rows="3" required></textarea>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Jetzt kostenlos anfragen</button>
+            <p class="form-note">100% kostenlos & unverbindlich</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Unsere Leistungen</span>
+          <h2>Alles rund ums Auto</h2>
+          <p>Von Fahrzeugverkauf über Reparaturen bis zum Abschleppdienst – bei uns sind Sie bestens aufgehoben.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card glass">
+            <div class="card-img"><img src="assets/transporter.jpg" alt="Fahrzeugverkauf" /></div>
+            <div class="card-body"><h3>🚗 Fahrzeugverkauf</h3><p>Neuwagen, Jahreswagen, Gebrauchtwagen & EU-Fahrzeuge aller Marken.</p></div>
+          </article>
+          <article class="card glass">
+            <div class="card-img"><img src="assets/service-repair.jpg" alt="KFZ-Reparatur" /></div>
+            <div class="card-body"><h3>🔧 KFZ-Reparatur</h3><p>Motor-, Turbolader- und Getriebe-Instandsetzung von Profis.</p></div>
+          </article>
+          <article class="card glass">
+            <div class="card-img"><img src="assets/tires.jpg" alt="Reifenservice" /></div>
+            <div class="card-body"><h3>⚙️ Reifenservice</h3><p>Sommer-, Winter- & Ganzjahresreifen. Kompletträder mit Montage.</p></div>
+          </article>
+          <article class="card glass">
+            <div class="card-img"><img src="assets/parts.jpg" alt="Ersatzteile" /></div>
+            <div class="card-body"><h3>📦 Ersatzteile</h3><p>Ersatzteile aller Marken zu Top-Preisen für PKW & Transporter.</p></div>
+          </article>
+          <article class="card glass">
+            <div class="card-img"><img src="assets/transporter.jpg" alt="Transporter" /></div>
+            <div class="card-body"><h3>🚚 Transporter</h3><p>Transporter in allen Größen: Fiat, Peugeot, Citroën, VW, Opel, Ford.</p></div>
+          </article>
+          <article class="card glass">
+            <div class="card-img"><img src="assets/towing.jpg" alt="Abschleppdienst" /></div>
+            <div class="card-body"><h3>🛟 Abschleppdienst</h3><p>Pannenhilfe & Fahrzeugüberführungen – schnell und zuverlässig.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="why-us" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Warum wir</span>
+          <h2>Darum vertrauen uns <span class="text-gradient">unsere Kunden</span></h2>
+        </div>
+        <div class="grid-3">
+          <div class="reason glass"><div class="reason-icon">★</div><div><h3>4,9 Sterne Bewertung</h3><p>57 begeisterte Kunden auf Google sprechen für sich.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">✓</div><div><h3>TÜV – Täglich verfügbar</h3><p>Kein langes Warten – bei uns bekommen Sie Ihren TÜV jeden Tag.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">🚚</div><div><h3>Lieferung nach Hause</h3><p>Gegen einen Aufpreis liefern wir Ihr Fahrzeug bequem zu Ihnen nach Hause.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">↻</div><div><h3>An- & Verkauf Wohnmobile</h3><p>Wir kaufen und verkaufen Wohnmobile – faire Preise garantiert.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">🚐</div><div><h3>Wohnmobil-Umbau</h3><p>Individuelle Umbauten für Ihr Wohnmobil – nach Ihren Wünschen.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">🛡️</div><div><h3>Alle Marken</h3><p>Fiat, Peugeot, Citroën, VW, Opel, Ford und viele mehr.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">💶</div><div><h3>Faire Preise</h3><p>Top-Qualität zu fairen Konditionen – ohne versteckte Kosten.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">⏱</div><div><h3>Schneller Service</h3><p>Kurze Wartezeiten und zügige Abwicklung Ihrer Aufträge.</p></div></div>
+          <div class="reason glass"><div class="reason-icon">📍</div><div><h3>Vor Ort in Ostbevern</h3><p>Persönliche Beratung direkt bei Ihnen in der Region.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VEHICLES CTA -->
+    <section class="vehicles">
+      <div class="vehicles-bg"><img src="assets/transporter.jpg" alt="Fahrzeugbestand" /><div class="vehicles-overlay"></div></div>
+      <div class="container vehicles-content">
+        <span class="badge"><span>🚗</span> Fahrzeugmarkt</span>
+        <h2>Entdecken Sie unseren <span class="text-primary">Fahrzeugbestand</span></h2>
+        <p class="lead-center">Transporter, Kleinwagen & Wohnmobile — sofort verfügbar. Stöbern Sie durch unser aktuelles Angebot auf mobile.de.</p>
+        <div class="cta-buttons">
+          <a href="https://home.mobile.de/AUTOHAUSOSTBEVERN" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">mobile.de →</a>
+          <a href="https://www.autoscout24.de/haendler/autohaus-ostbevern" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">AutoScout24 →</a>
+        </div>
+        <div class="stats">
+          <div><strong>50+</strong><span>Fahrzeuge verfügbar</span></div>
+          <div><strong>Top</strong><span>Preise garantiert</span></div>
+          <div><strong>4,9★</strong><span>Kundenbewertung</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Galerie</span>
+          <h2>Einblicke in unser Autohaus</h2>
+        </div>
+        <div class="gallery">
+          <div class="gallery-item gallery-large"><img src="assets/hero-bg.jpg" alt="Autohaus Ostbevern Außenansicht" /></div>
+          <div class="gallery-item"><img src="assets/transporter.jpg" alt="Transporter Bestand" /></div>
+          <div class="gallery-item"><img src="assets/service-repair.jpg" alt="KFZ Werkstatt" /></div>
+          <div class="gallery-item"><img src="assets/tires.jpg" alt="Reifenservice" /></div>
+          <div class="gallery-item"><img src="assets/parts.jpg" alt="Ersatzteile" /></div>
+          <div class="gallery-item"><img src="assets/towing.jpg" alt="Abschleppdienst" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container container-narrow">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Häufig gestellte Fragen</h2>
+        </div>
+        <div class="faq">
+          <details class="faq-item glass"><summary>Welche Fahrzeugmarken bieten Sie an?</summary><p>Wir führen Fahrzeuge und Transporter von Fiat, Peugeot, Citroën, VW, Opel, Ford und weiteren Marken – als Neuwagen, Jahreswagen, Gebrauchtwagen oder EU-Fahrzeuge. Dank unserer ausgebauten logistischen Struktur ist jedes Auto auf Bestellung verfügbar.</p></details>
+          <details class="faq-item glass"><summary>Bieten Sie auch Finanzierung oder Leasing an?</summary><p>Ja, wir bieten flexible Finanzierungs- und Leasingoptionen an – auch ohne Anzahlung möglich. Kontaktieren Sie uns für ein individuelles Angebot.</p></details>
+          <details class="faq-item glass"><summary>Wie schnell kann ich einen Reparaturtermin bekommen?</summary><p>Sofort! Bei uns gibt es keine langen Wartezeiten. Kommen Sie einfach vorbei – wir kümmern uns direkt um Ihr Fahrzeug.</p></details>
+          <details class="faq-item glass"><summary>Was kostet der Abschleppdienst?</summary><p>Wir bieten transparente Festpreise für unseren Abschleppdienst und Überführungen. Kontaktieren Sie uns für ein genaues Angebot.</p></details>
+          <details class="faq-item glass"><summary>Haben Sie Reifen auf Lager?</summary><p>Ja, wir führen Sommer-, Winter- und Ganzjahresreifen sowie Kompletträder aller Größen und Marken zu Top-Preisen – mit und ohne Montage.</p></details>
+          <details class="faq-item glass"><summary>Wann haben Sie geöffnet?</summary><p>Montag bis Freitag von 9:00 bis 18:00 Uhr, Samstag von 10:00 bis 15:00 Uhr. Sonntags geschlossen.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container container-narrow text-center">
+        <h2>Bereit für Ihr <span class="text-gradient">neues Fahrzeug?</span></h2>
+        <p class="lead">Kontaktieren Sie uns jetzt – wir beraten Sie persönlich und finden das perfekte Angebot für Sie.</p>
+        <div class="cta-buttons">
+          <button class="btn btn-primary btn-lg" id="scroll-top-btn">Jetzt anfragen →</button>
+          <a href="tel:025329509558" class="btn btn-outline btn-lg">📞 02532 9509558</a>
+          <a href="tel:01637332091" class="btn btn-outline btn-lg">📞 0163 7332091</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h3 class="text-gradient">AUTOHAUS OSTBEVERN</h3>
+            <p>Ihr Transporter & Kleinwagen Profi – Neuwagen, Gebrauchtwagen, Reparaturen & mehr.</p>
+          </div>
+          <div class="footer-info">
+            <div>📍 Loburg 51, 48346 Ostbevern</div>
+            <div>📞 02532 9509558</div>
+            <div>📞 0163 7332091</div>
+            <div>🕒 Mo–Fr 9–18 Uhr | Sa 10–15 Uhr</div>
+          </div>
+          <div>
+            <h4>Leistungen</h4>
+            <ul>
+              <li>Fahrzeugverkauf</li>
+              <li>KFZ-Reparatur</li>
+              <li>Reifenservice</li>
+              <li>Ersatzteile</li>
+              <li>Abschleppdienst</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span id="copyright">© Autohaus Ostbevern GmbH. Alle Rechte vorbehalten.</span>
+          <div class="footer-links">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
